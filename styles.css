@@ -1,0 +1,14 @@
+.ask-selection-modal { max-width: 680px; }
+.ask-selection-excerpt { white-space: pre-wrap; overflow-wrap: anywhere; max-height: 180px; overflow: auto; padding: 12px; background: var(--background-secondary); border-radius: 6px; font-family: var(--font-text); }
+.ask-selection-question { width: 100%; min-height: 110px; resize: vertical; margin-top: 12px; }
+.ask-selection-actions { display: flex; justify-content: flex-end; flex-wrap: wrap; gap: 8px; margin: 16px 0; }
+.ask-selection-status { cursor: pointer; max-width: 440px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+.ask-selection-composer { max-width: 42rem; }
+.ask-selection-composer textarea {width:100%;min-height:5rem;resize:vertical;}
+.ask-selection-modes,.ask-selection-actions {display:flex;gap:.5rem;flex-wrap:wrap;margin:.7rem 0;}
+.ask-selection-modes button[aria-pressed=true] {background:var(--interactive-accent);color:var(--text-on-accent);}
+.ask-selection-composer details {margin:.4rem 0;}
+.ask-selection-composer select {max-width:100%;}
+.ask-selection-popup {z-index:9999;box-shadow:var(--shadow-s);padding:.25rem .6rem;}
+.ask-selection-context-description {font-size:var(--font-smallest);color:var(--text-muted);}
